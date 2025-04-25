@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Havin\\source\\repos\\Odev2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2CDA38-D2B7-4D0D-8FE4-67BBAEE64333}|Odev2\\Odev2.csproj|c:\\users\\havin\\source\\repos\\odev2\\odev2\\vkisayfasi.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2CDA38-D2B7-4D0D-8FE4-67BBAEE64333}|Odev2\\Odev2.csproj|solutionrelative:odev2\\vkisayfasi.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2CDA38-D2B7-4D0D-8FE4-67BBAEE64333}|Odev2\\Odev2.csproj|c:\\users\\havin\\source\\repos\\odev2\\odev2\\vkisayfasi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FD2CDA38-D2B7-4D0D-8FE4-67BBAEE64333}|Odev2\\Odev2.csproj|solutionrelative:odev2\\vkisayfasi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VKISayfasi.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\VKISayfasi.xaml.cs",
+              "RelativeDocumentMoniker": "Odev2\\VKISayfasi.xaml.cs",
+              "ToolTip": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\VKISayfasi.xaml.cs",
+              "RelativeToolTip": "Odev2\\VKISayfasi.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:25:59.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VKISayfasi.xaml",
+              "DocumentMoniker": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\VKISayfasi.xaml",
+              "RelativeDocumentMoniker": "Odev2\\VKISayfasi.xaml",
+              "ToolTip": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\VKISayfasi.xaml",
+              "RelativeToolTip": "Odev2\\VKISayfasi.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-25T10:22:24.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

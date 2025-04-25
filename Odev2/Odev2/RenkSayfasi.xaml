@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Odev2.RenkSayfasi"
+             x:Name="renkSayfasi"
+             Title="Renk Secici">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="20">
+
+            <!-- Başlık -->
+            <Label Text="Renk Seçici" FontSize="30"  FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" />
+
+            <!-- SLİDER SINIR KONTROLLERİ  --> 
+            <!-- RGB slider ve değer etiketi -->
+            <!-- Kırmızı  -->
+            <Label Text="Kırmızı Ton:" TextColor="Red" FontAttributes="Bold"/>
+            <Slider x:Name="redSlider" Minimum="0" Maximum="255" ValueChanged="RenkGuncelle" MinimumTrackColor="Red" ThumbColor="Red"/>
+            <Label x:Name="redLabel" Text="R: 0" TextColor="Red" />
+
+            <!-- Yeşil -->
+            <Label Text="Yeşil Ton:" TextColor="Green" FontAttributes="Bold"/>
+            <Slider x:Name="greenSlider" Minimum="0" Maximum="255" ValueChanged="RenkGuncelle" MinimumTrackColor="Green" ThumbColor="Green"/>
+            <Label x:Name="greenLabel" Text="G: 0" TextColor="Green"/>
+
+            <!-- Mavi -->
+            <Label Text="Mavi Ton:" TextColor="Blue" FontAttributes="Bold"/>
+            <Slider x:Name="blueSlider" Minimum="0" Maximum="255" ValueChanged="RenkGuncelle" MinimumTrackColor="Blue" ThumbColor="Blue"/>
+            <Label x:Name="blueLabel" Text="B: 0" TextColor="Blue" />
+
+
+            <!-- HEX kodu ve kopyalama -->
+            <Frame BorderColor="Gray" CornerRadius="10" Padding="10" BackgroundColor="White" HorizontalOptions="Center" WidthRequest="500">
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Entry x:Name="renkKoduLabel"
+                       WidthRequest="220" IsReadOnly="True" FontSize="16" TextColor="Black" HorizontalTextAlignment="Center" />
+
+                <Button Clicked="Kopyala_Clicked" WidthRequest="220"
+                        HeightRequest="40" CornerRadius="20" BackgroundColor="LightGray" Text="📋"/>
+            </HorizontalStackLayout>
+            </Frame>
+            <!-- Random butonu -->
+            <Button Text="Random"
+                    Clicked="Rastgele_Clicked" FontSize="18"  CornerRadius="10"  BackgroundColor="#673AB7" TextColor="White"
+                    HeightRequest="50" WidthRequest="500" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

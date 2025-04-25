@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Odev2.VKISayfasi"
+             Title="VKİ Hesaplama">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Vki = kg/(boy*boy)"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="BlueViolet"
+                   HorizontalOptions="Center" />
+
+            <!-- Kilo slider ve etiketi -->
+            <Label Text="Kilo (kg):" FontAttributes="Bold"/>
+            <Slider x:Name="kiloSlider" Minimum="30" Maximum="150"  ValueChanged="Slider_ValueChanged" MinimumTrackColor="BlueViolet" ThumbColor="BlueViolet"/>
+            <!-- KİLO VE BOY İÇİN SINIR -->
+            <Label x:Name="kiloLabel" Text="Kilo: 30 kg"  />
+
+            <!-- Boy slider ve etiketi -->
+            <Label Text="Boy (cm):" FontAttributes="Bold"/>
+            <Slider x:Name="boySlider" Minimum="100" Maximum="220" ValueChanged="Slider_ValueChanged" MinimumTrackColor="BlueViolet" ThumbColor="BlueViolet"/>
+            <Label x:Name="boyLabel" Text="Boy: 100 cm" />
+
+            <!-- Hesaplanan VKİ değeri ve yorumu -->
+            <VerticalStackLayout Spacing="5" HorizontalOptions="Center">
+                <Label x:Name="vkiLabel" FontSize="20" FontAttributes="Bold" TextColor="BlueViolet"  HorizontalOptions="Center" />
+                <Label x:Name="vkiYorumLabel" FontSize="16" FontAttributes="Bold" TextColor="BlueViolet" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

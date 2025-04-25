@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Havin\\source\\repos\\Odev2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC873DE-10C2-411E-B53A-A3662D5B52A0}|Odev2\\Odev2.csproj|c:\\users\\havin\\source\\repos\\odev2\\odev2\\kredisayfasi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACC873DE-10C2-411E-B53A-A3662D5B52A0}|Odev2\\Odev2.csproj|solutionrelative:odev2\\kredisayfasi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC873DE-10C2-411E-B53A-A3662D5B52A0}|Odev2\\Odevv.csproj|c:\\users\\havin\\source\\repos\\odev2\\odev2\\odevv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACC873DE-10C2-411E-B53A-A3662D5B52A0}|Odev2\\Odevv.csproj|solutionrelative:odev2\\odevv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Odevv.csproj",
+              "DocumentMoniker": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\Odevv.csproj",
+              "RelativeDocumentMoniker": "Odev2\\Odevv.csproj",
+              "ToolTip": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\Odevv.csproj*",
+              "RelativeToolTip": "Odev2\\Odevv.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T11:28:56.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KrediSayfasi.xaml",
+              "DocumentMoniker": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\KrediSayfasi.xaml",
+              "RelativeDocumentMoniker": "Odev2\\KrediSayfasi.xaml",
+              "ToolTip": "C:\\Users\\Havin\\source\\repos\\Odev2\\Odev2\\KrediSayfasi.xaml",
+              "RelativeToolTip": "Odev2\\KrediSayfasi.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-16T11:31:35.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
